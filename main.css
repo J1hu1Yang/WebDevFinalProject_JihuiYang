@@ -129,7 +129,7 @@
   padding: 20px;
   background-color: #0f85d3;
   display: block;
-  text-align: center;
+  text-align: left;
   border: 3px solid #ffffff;
   border-radius: 5px;
   color: #ffffff;
@@ -148,7 +148,7 @@
   padding: 20px;
   background-color: #f52525;
   display: block;
-  text-align: center;
+  text-align: left;
   border: 3px solid #ffffff;
   border-radius: 5px;
   color: #ffffff;
@@ -169,7 +169,7 @@
   padding: 20px;
   background-color: #f52525;
   display: block;
-  text-align: center;
+  text-align: left;
   border: 3px solid #ffffff;
   border-radius: 5px;
   color: #ffffff;
@@ -204,7 +204,9 @@
   margin: 0px;
 }
 
-
+.card{
+  max-width: 300px;
+}
 form {
   margin: 50px;
   border: 3px solid #ffffff;

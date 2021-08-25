@@ -29,7 +29,7 @@
 }
 
 .AboutSectionContent {
-  background-image: url("/Users/杨济珲/Desktop/WEBfinal/image/background1.png");
+  background-image: url("https://j1hu1yang.github.io/WebDevFinalProject_JihuiYang/image/background1.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -40,7 +40,7 @@
   min-height: 1000px;
 }
 .PreviousWorkSectionContent {
-  background-image: url("/Users/杨济珲/Desktop/WEBfinal/image/background2.png");
+  background-image: url("https://j1hu1yang.github.io/WebDevFinalProject_JihuiYang/image/background2.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -51,7 +51,7 @@
   min-height: 1000px;
 }
 .ProjectSectionContent {
-  background-image: url("/Users/杨济珲/Desktop/WEBfinal/image/background3.jpg");
+  background-image: url("https://j1hu1yang.github.io/WebDevFinalProject_JihuiYang/image/background3.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -66,7 +66,7 @@
 }
 
 .ContactSectionContent {
-  background-image: url("/Users/杨济珲/Desktop/WEBfinal/image/background4.jpg");
+  background-image: url("https://j1hu1yang.github.io/WebDevFinalProject_JihuiYang/image/background4.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right;

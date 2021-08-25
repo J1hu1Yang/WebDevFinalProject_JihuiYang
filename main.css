@@ -1,0 +1,246 @@
+
+.banner1 {
+  background-color: #eb65a8;
+  width: 100%;
+  margin-top: -5px;
+}
+.banner2 {
+  background-color: #0f85d3;
+  width: 100%;
+  margin-top: -5px;
+}
+.banner3 {
+  background-color: #f52525;
+  width: 100%;
+  margin-top: -5px;
+}
+.banner4 {
+  background-color: #597fe9;
+  width: 100%;
+  margin-top: -5px;
+}
+.banner_text {
+  font-size: 150%;
+  padding: 20px;
+  margin: 0%;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Segoe UI' ;
+}
+
+.AboutSectionContent {
+  background-image: url("/Users/杨济珲/Desktop/WEBfinal/image/background1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: auto;
+
+  height: 100%;
+  width: 100%;
+  min-height: 1000px;
+}
+.PreviousWorkSectionContent {
+  background-image: url("/Users/杨济珲/Desktop/WEBfinal/image/background2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+  height: 100%;
+  width: 100%;
+  min-height: 1000px;
+}
+.ProjectSectionContent {
+  background-image: url("/Users/杨济珲/Desktop/WEBfinal/image/background3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+  height: 100%;
+  width: 100%;
+  min-height: 1000px;
+}
+.ProjectSectionBlock {
+  display: flex;
+}
+
+.ContactSectionContent {
+  background-image: url("/Users/杨济珲/Desktop/WEBfinal/image/background4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+  background-size: cover;
+
+  height: 100%;
+  width: 100%;
+  min-height: 1000px;
+}
+.portrait{
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  right: 0%;
+  margin: 50px;
+}
+.AboutSectionText{
+  padding: 20px;
+  background-color: #eb65a8;
+  display: block;
+  text-align: left;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.PreviousWorkSectionText{
+  padding: 20px;
+  background-color: #0f85d3;
+  display: block;
+  text-align: left;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.ProjectSectionText{
+  padding: 20px;
+  background-color: #f52525;
+  display: block;
+  text-align: left;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.ContactSectionText{
+  padding: 20px;
+  background-color: #597fe9;
+  display: block;
+  text-align: left;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.overseaintro{
+  margin: 50px;
+  padding: 20px;
+  background-color: #0f85d3;
+  display: block;
+  text-align: center;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+  width: 300px;
+  height: 500px;
+  font-family: 'Cambria' ;
+}
+.oversea {
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  right: 0%;
+  margin: 0px;
+}
+.dwmintro{
+  padding: 20px;
+  background-color: #f52525;
+  display: block;
+  text-align: center;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+  width: 300px;
+  height: 500px;
+  font-family: 'Cambria' ;
+}
+
+.dwm {
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  right: 0%;
+  margin: 0px;
+}
+
+.pairintro{
+  padding: 20px;
+  background-color: #f52525;
+  display: block;
+  text-align: center;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+  width: 300px;
+  height: 500px;
+  font-family: 'Cambria' ;
+}
+@media (min-width:577px) {
+.pairintro{
+  margin: 50px;
+}
+.dwmintro {
+  margin: 50px;
+}
+}
+@media (max-width:576px) {
+  .ProjectSectionBlock {
+    display: block;
+  }
+  .dwmintro {
+    margin-left: 50px;
+  }
+  .pairintro{
+    margin-left: 50px;
+  }
+}
+.pair {
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  right: 0%;
+  margin: 0px;
+}
+
+
+form {
+  margin: 50px;
+  border: 3px solid #ffffff;
+  text-align: left;
+  background-color: #597fe9;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: 'Segoe UI' ;
+  width: 300px;
+  height: 500px;
+  padding: 20px;
+}
+
+button.Submit {
+  width: 270px;
+  color: #ffffff;
+  background-color: #fc27c7;
+  font-family: 'Cambria' ;
+}
+h3 {
+  font-family: "Segoe UI";
+}
+nav.page-navigation {
+  width: 20%;
+  min-width: 130px;
+  max-width: 210px;
+  background-color: #ffffff;
+  position: fixed;
+  bottom:20%;
+  left:0;
+  display: table-column-group;
+  border-radius: 15px;
+  z-index: 10;
+}
+nav.page-navigation li {
+  width: 100%;
+  background-color: #fc27c7;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+nav.page-navigation a {
+  padding: 0.6em 10%;
+  width: 80%;
+  color: #ffffff;
+  font-family: 'Cambria' ;
+}

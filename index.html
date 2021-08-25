@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Final Project: Personal Website</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  
+  <body>
+    
+    <nav class="site-navigation page-navigation">
+        <ul class="menu">
+          <li><a href="#AboutSection">About</a></li>
+          <li><a href="#PreviousWorkSection">Previous work</a></li>
+          <li><a href="#ProjectSection">Project</a></li>
+          <li><a href="#ContactSection">Contact</a></li>
+        </ul>
+      </nav>
+    <main>
+        <div id="AboutSection">
+            <div class="banner1">
+                <div class="banner_text">
+                    About
+                </div>
+            </div>
+            <div class="AboutSectionContent" >
+                <!--img class="background" src="image/background1.png" width="100%" alt="background1"-->
+
+                <img class="portrait" src="image/portrait0.jpg" height="250" width="250" alt="portrait">
+                <div class="AboutSectionText">
+                    Hello, I'm Jihui Yang. Welcome to my personal website. Sailor Moon is my favorite comic series, 
+                    which is also the source of inspiration for the design of this website.
+                </div>
+            </div>
+        </div>
+        <div id="PreviousWorkSection">
+            <div class="banner2">
+                <div class="banner_text">
+                    Previous work
+                </div>
+                
+            </div>
+            <div class="PreviousWorkSectionContent" >
+                <div class="PreviousWorkSectionText">
+                    This section is a general outline of my previous work. 
+                </div>
+                <div class="overseaintro">
+                    <img class="oversea" src="image/oversea.png" height="120" width="300" alt="oversea">
+                    <h3>Study abroad</h3>
+                    <p>
+                        I spent 2 years in a university in my home 
+                        town, and I study English for most of my 
+                        time to prepare for study abroad. <br/>
+                        Choose computer science as my major is the 
+                        biggest challenge in my whole life and also 
+                        a great opportunity that I want to seize.
+                    </p>
+            </div>
+
+        </div>
+        <div id="ProjectSection">
+            <div class="banner3">
+                <div class="banner_text">
+                    Project
+                </div>
+                <div class="ProjectSectionText">
+                    This section is the projects I have previously worked on.
+                </div>
+            </div>
+            <div class="ProjectSectionContent" >
+                
+                <div class="ProjectSectionBlock">
+                    <div class="dwmintro">
+                       <img class="dwm" src="image/dwm0.png" height="100" width="300" alt="dwm">
+                       <h3>DWM analysis</h3>
+                        <p>
+                            DWM is a dynamic, minimalist tiling window manager for the X Window System that has influenced 
+                            the development of several other X window managers<br/>
+                            After some research on the code base our team haven't found any code that need to restructure, so we
+                            mainly work on the analysis of dwm code base, the developer group have great guidelines on coding 
+                            style and the code is very clean, so in the attempts so far deliberately change some of code wouldn’t 
+                            be meaningful or make improvement as a matter of fact.<br>
+                            URL of code base: https://github.com/CS410-510-Code-Review/dwm
+                        </p>
+                    </div>
+                    <div class="pairintro">
+                        <img class="pair" src="image/pair0.jpg" height="200" width="300" alt="pair">
+                        <h3>Pair programming</h3>
+                        <p>
+                            Pair programming is 2 people work on a program together, from what I learned during the process, 
+                            I believe a detailed plan can increase the efficiency of pair programming by avoid possible argument 
+                            on the direction of the development.<br/>
+                            The problem we working on is FooBarQix, URL: https://codingdojo.org/kata/FooBarQix/ <br/>
+                           The URL of code base: https://github.com/hsean/CS410JavaKata 
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="ContactSection">
+            <div class="banner4">
+                <div class="banner_text">
+                    Contact
+                </div>
+            </div>
+            
+            <div class="ContactSectionContent" >
+                <div class="ContactSectionText">
+                    This section is the from for contact. 
+                </div>
+                <form action="" class="ContactForm" width="300" height="500">
+                    <h1>Contact Form</h1>
+                    <p>
+                        Email:
+                        <input type="text" name="email" size="25" maxlength="30" /><br />
+                        <br />
+                    </p>
+                    <p>
+                        I will never share your email with anyone, anywhere. Promise.<br />
+                        Because the submission feature is not implement yet.<br /><br />
+                        Message:<br />
+                        <textarea rows="5" cols="32" id="multiLineInput"></textarea>
+                    </p>
+                    <button class="Submit">Submit</button>
+                  </form>
+            </div>
+
+        </div>
+      
+    </main>
+  </body>
+</html>

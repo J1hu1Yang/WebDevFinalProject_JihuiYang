@@ -232,12 +232,12 @@ h3 {
 }
 nav.page-navigation {
   width: 20%;
-  min-width: 130px;
+  min-width: 110px;
   max-width: 210px;
   background-color: #ffffff;
   position: fixed;
   bottom:20%;
-  left:0;
+  right:0;
   display: table-column-group;
   border-radius: 15px;
   z-index: 10;
